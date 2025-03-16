@@ -9,7 +9,7 @@ Turns out with modern technology it is not that difficult to find the approximat
 
 In the above diagram, $\angle AOB$ is 90&deg; (or $\frac{\pi}{4})$, and it is easy to know the length of chord $\overline{AB}$ to be $\sqrt{1^2 + 1^2} = \sqrt{2}$. However, knowing that alone would not go too far to seek $\pi$.
 
-Know that 4 chord-$\overline{AB}$ go around the unit circle, hence we have $n \overline{AB} \approx 2 \pi$ (very roughly) where $n = 4$.
+Know that 4 chord $\overline{AB}$ go around the unit circle, hence we have $n \overline{AB} \approx 2 \pi$ (very roughly) where $n = 4$.
 
 Given $\overline{AB}$, if we bisect it to get $C$ on the arc, we have:
 
@@ -76,4 +76,4 @@ We can also use a simple Python script to achieve that. For illustrtion purpose 
 
 ![Python iterations](03.png)
 
-You can find the source code at my GitHub page:
+You can find this source code at my GitHub page at <a href="https://github.com/creambun/seeking-pi/blob/master/iterations.py">https://github.com/creambun/seeking-pi/blob/master/iterations.py</a>
