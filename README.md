@@ -7,7 +7,7 @@ Turns out with modern technology it is not that difficult to find the approximat
 ## Concept
 ![an arc](01.png)
 
-In the above diagram, $\angle AOB$ is 90&deg; (or $\frac{\pi}{4})$, and it is easy to know the length of chord $\overline{AB}$ to be $\sqrt{1^2 + 1^2} = \sqrt{2}$. However, knowing that alone would not go too far to seek $\pi$.
+In the above diagram, $\angle AOB$ is 90&deg; (or $\frac{\pi}{2})$, and it is easy to know the length of chord $\overline{AB}$ to be $\sqrt{1^2 + 1^2} = \sqrt{2}$. However, knowing that alone would not go too far to seek $\pi$.
 
 Know that 4 chord $\overline{AB}$ go around the unit circle, hence we have $n \overline{AB} \approx 2 \pi$ (very roughly) where $n = 4$.
 
@@ -37,7 +37,7 @@ If we focus on the blue-orange lines, by Pythagoras theorem:
 $$
 \begin{aligned}
 \overline{CB}^2 = \overline{CD}^2 + \overline{DB}^2 \\
-= (1-\overline{OD})^2 + \overline{DB}^2 (\because \overline{CD} = 1 - \overline{OD}) \\
+= (1-\overline{OD})^2 + \overline{DB}^2 (\because \overline{CD} + \overline{OD} = 1 \text{ in a unit circle}) \\
 = \bigg( 1-\sqrt{1-\overline{DB}^2} \bigg) ^2 + \overline{DB}^2 (\because \overline{OD}^2 + \overline{DB}^2 = 1) \\
 = \bigg( 1-\sqrt{1-\bigg( \frac{\overline{AB}}{2} \bigg) ^2} \bigg) ^2 + \bigg( \frac{\overline{AB}}{2} \bigg) ^2 (\because \overline{DB} = \frac{\overline{AB}}{2})
 \end{aligned}
@@ -51,7 +51,7 @@ $$
 
 and don't forget that $8\overline{CB} \approx 2\pi$.
 
-We successfully express $\overline{CB}$ in terns of $\overline{AB}$. This is iteration #1.
+We successfully express $\overline{CB}$ in terms of $\overline{AB}$. This is iteration #1.
 
 If we shift the focus to the orange-green lines, know that we already know $\overline{CB}$, we can use the same equation to calculate $\overline{FB}$. We have:
 
